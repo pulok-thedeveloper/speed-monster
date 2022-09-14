@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blogs</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="text-light">
+    <a href="index.html">
+      <h1 class="title"><img src="./logo.png" /></h1>
+    </a>
+
+    <h2 class="mb-5">Difference between Local Storage and Session Storage:</h2>
+    <div class="container mx-auto row row-cols-2 text-center mb-5">
+      <div class="col border border-light mb-0 py-4">
+        <h5>Local Storage</h5>
+      </div>
+      <div class="col border border-light mb-0 py-4">
+        <h5>Session Storage</h5>
+      </div>
+      <p class="col border border-light mb-0 py-4">
+        The storage capacity of local storage is 5MB/10MB
+      </p>
+      <p class="col border border-light mb-0 py-4">
+        The storage capacity of session storage is 5MB
+      </p>
+      <p class="col border border-light mb-0 py-4">
+        As it is not session-based, it must be deleted via javascript or
+        manually
+      </p>
+      <p class="col border border-light mb-0 py-4">
+        It’s session-based and works per window or tab. This means that data is
+        stored only for the duration of a session, i.e., until the browser (or
+        tab) is closed
+      </p>
+      <p class="col border border-light mb-0 py-4">
+        There is no transfer of data to the server
+      </p>
+      <p class="col border border-light mb-0 py-4">
+        There is no transfer of data to the server
+      </p>
+    </div>
+
+    <h2 class="mb-5">Difference between Global Scope and Local Scope:</h2>
+    <div class="container mx-auto row row-cols-2 text-center mb-5">
+      <div class="col border border-light mb-0 py-4">
+        <h5>Global Scope</h5>
+      </div>
+      <div class="col border border-light mb-0 py-4">
+        <h5>Local Scope</h5>
+      </div>
+      <p class="col border border-light mb-0 py-4">
+        Global scope contains all of the things defined outside of all code
+        blocks.
+      </p>
+      <p class="col border border-light mb-0 py-4">
+        Local scope contains things defined inside code blocks.
+      </p>
+      <p class="col border border-light mb-0 py-4">
+        A global variable is accessible from anywhere in the code.
+      </p>
+      <p class="col border border-light mb-0 py-4">
+        A local variable is only accessible where it’s declared.
+      </p>
+    </div>
+
+    <div class="mb-5">
+      <h2 class="mb-3">How does the event loop works in javascript</h2>
+      <p>
+        The event loop is a process that waits for the Call Stack to be clear
+        before pushing callbacks from the Task Queue to the Call Stack. Once the
+        Stack is clear, the event loop triggers and checks the Task Queue for
+        available callbacks. If there are any, it pushes it to the Call Stack,
+        waits for the Call Stack to be clear again, and repeats the same
+        process.
+      </p>
+    </div>
+
+    <div>
+      <h2 class="mb-3">
+        When a piece of code through 'undefined' in javascript
+      </h2>
+      <p>
+        1. Variable declared but not defined.<br />
+        2. Type of an empty string <br />
+        3. Check if a variable is defined or not
+      </p>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
