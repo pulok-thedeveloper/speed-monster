@@ -196,3 +196,11 @@ button {
     flex-direction: column;
   }
 }
+
+@media only screen and (max-width: 576px) {
+  #histories {
+    display: flex;
+    flex-wrap: wrap;
+    
+  }
+}
