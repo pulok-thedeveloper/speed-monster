@@ -76,9 +76,10 @@ body {
   padding: 2rem;
 }
 
-#result h1,#result P{
+#result h1,#result p{
   margin-bottom: 10px;
 }
+
 #show-time{
   text-align: center;
   color: white;
